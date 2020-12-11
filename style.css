@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    /* background-color: rgb(44, 33, 33);*/
+background-image: linear-gradient(to left, rgb(68, 66, 66), rgb(48, 40, 40));
+
+
+}
+
+.div1{
+
+     width: 400px;
+     height: 550px;
+   background-color:rgb(44, 34, 34);
+
+     border-radius: 15px;
+     position: absolute;
+     right: 10%;
+     top: 15%;
+     color: white;
+     text-align: center;
+ }
+ .div2{
+
+width: 700px;
+height: 550px;
+background-color:rgb(51, 47, 47);
+
+border-radius: 15px;
+position: absolute;
+left: 8%;
+top: 15%;
+color: white;
+text-align: center;
+}
+ .div1 h1,
+ .div2 h1{
+
+     margin :90px;   
+     font-size: 25px;
+     letter-spacing: 5px;
+     font-weight: bold; 
+     text-decoration:overline    }
+ #tittre{
+
+     text-align: center;
+     color: white;
+     font-size: 17px;
+     letter-spacing: 1px;
+     margin-bottom: 12px;
+ }
+ .form{
+display: inline;
+     width: 70%;
+     height: 60px;
+
+ }
+ .form label{
+     
+     text-align: center;
+     font-size: 15px;
+}
+ .form input{
+     width: 200px;
+     height: 30px;
+     border-radius: 15px;
+     margin-bottom: 15px;   
+ }
+ .form input::placeholder{
+     text-align: center;
+     font-size: 11px;
+     font-weight: bolder;
+     color: rgb(21, 24, 17);
+ }
+ #idd{
+
+     font-size: 15px;
+     letter-spacing: 2px;
+     font-weight: bold;
+ }
+ .form button{
+margin-top: 30px;
+border-radius: 15px;
+     width: 200px;
+     height: 30px;
+ padding-bottom: 15px;
+ font-size: 16px;
+ text-align: center;
+ cursor: pointer;
+ background-image: linear-gradient(to right, #ff5f74, #fdc91e, #ff5f74);
+box-shadow      : 0 5px 20px 0 #ff5f7470;
+
+
+ }
+ .form button:hover{
+
+background-color: rgb(121, 107, 107); 
+color: white;       }
+
+.bas{
+
+position: absolute;
+
+left: 36%;
+top: 90%;
+;
+
+}
+.bas a{
+
+text-decoration: none;
+color: white;
+}
